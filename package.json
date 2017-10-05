@@ -1,0 +1,22 @@
+{
+  "name": "game-collector-server",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "start": "node ./src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YourWishes/GameCollectorServer.git"
+  },
+  "keywords": [],
+  "author": "Dominic Masters",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
